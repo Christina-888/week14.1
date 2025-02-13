@@ -57,11 +57,36 @@ const paragraph1 = document.createElement('p');
 paragraph1.textContent = grades1;
 document.body.appendChild(paragraph1);
 
+
 const averageGrade1 = `Средний балл: ${roundAverageGrade}`;
 const paragraph2 = document.createElement('p');
 paragraph2.textContent = averageGrade1;
 document.body.appendChild(paragraph2);
 
+const smallestGrade1 = `Минимальный балл: ${smallestGrade}`;
+const paragraph3 = document.createElement('p');
+paragraph3.textContent = smallestGrade1;
+document.body.appendChild(paragraph3);
+
+const highestGrade1 = `Максимальный балл: ${highestGrade}`;
+const paragraph4 = document.createElement('p');
+paragraph4.textContent = highestGrade1;
+document.body.appendChild(paragraph4);
+
+const goodStudents1 = `Количество студентов с положительной оценкой: ${goodStudents}`;
+const paragraph5 = document.createElement('p');
+paragraph5.textContent = goodStudents1;
+document.body.appendChild(paragraph5);
+
+const badStudents1 = `Количество студентов с отрицательной оценкой: ${badStudents}`;
+const paragraph6 = document.createElement('p');
+paragraph6.textContent = badStudents1;
+document.body.appendChild(paragraph6);
+
+const letterGrades1 = `Оценки в буквенном формате: ${letterGrades}`;
+const paragraph7 = document.createElement('p');
+paragraph7.textContent = letterGrades1;
+document.body.appendChild(paragraph7);
 
 
 
